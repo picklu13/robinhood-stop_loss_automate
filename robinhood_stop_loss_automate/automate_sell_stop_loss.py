@@ -2,7 +2,6 @@ import robin_stocks as r
 
 class AutomationActions():
     def __init__(self):
-        r.login("p.santanusaha@gmail.com", "Kolkata--700097")
         self.current_positions = r.build_holdings()
 
     def __cancel_all_open_positions(self):
